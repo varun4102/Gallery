@@ -1,0 +1,25 @@
+# Gallery Application - where user can upload there photos and view other users photos
+
+
+1. Make Model and View for the application (think about you project what you use in it or what kind of feature you whant to add according to your project and feature make models and views for it)
+ *  like user model, photo model, comment model, like model, etc.
+
+2. Install the required packages
+  * npm init
+
+3. making public folder for static files
+ * in that folder create temp folder for storing images (temprary and send to thid party API Like Cloudnary)
+ * in temp folder we create .gitkeep
+
+ 4. Create .ENV file for storing API keys and other sensitive data
+ 5. Create .gitignore
+    * for ignoring un use files and folders at the time of push to git 
+
+ 6. create Src folder 
+    * create app.js file in src folder
+    * create constants.js 
+    * create index.js 
+
+7. Install nodemon package for auto restart server when we make any change in code
+    * npm install nodemon -D
+    * In package.json add script for nodemon ("dev":"nodemon src/index.js")
