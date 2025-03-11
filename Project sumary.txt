@@ -11,7 +11,7 @@
  * in that folder create temp folder for storing images (temprary and send to thid party API Like Cloudnary)
  * in temp folder we create .gitkeep
 
- 4. Create .ENV file for storing API keys and other sensitive data
+ 4. Create .E  NV file for storing API keys and other sensitive data
  5. Create .gitignore
     * for ignoring un use files and folders at the time of push to git 
 
@@ -22,4 +22,4 @@
 
 7. Install nodemon package for auto restart server when we make any change in code
     * npm install nodemon -D
-    * In package.json add script for nodemon ("dev":"nodemon src/index.js")
+    * In package.json add script for nodemon ("dev":"nodemon src/index.js")      
