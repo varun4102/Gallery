@@ -24,3 +24,11 @@
     * npm install nodemon -D
     * In package.json add script for nodemon ("dev":"nodemon src/index.js")      
     
+8. Create database schema for user and photo table
+   * Go to the mongodb official website and sign in then create database 
+   * create username and password 
+   * copy the mongodb url 
+   * write the mongodb url into the .env file
+9. Install required packages
+   * npm i dotenv express mongoose
+
